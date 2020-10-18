@@ -7,31 +7,68 @@ guitarDynamics = {
 melody = \relative c' {
   \common
 
+  \partial 2. r2. |
+
   \barNumberCheck #1
+  r2. r2 |
+  r2. r2 |
+  r2. r2 |
+
+  \barNumberCheck #4
+  r2. r2 | r2. r2 | r2. r2 |
+  r2. r2 | r2. r2 | r2. r2 |
+  r2. r2 |
+
 
 }
 
-middle = \relative c'' {
+middle = \relative c' {
   \common
 
+  \partial 2. r2. |
+
   \barNumberCheck #1
+  r2. r2 |
+  r2. r2 |
+  r2. r2 |
+
+  \barNumberCheck #4
+  s2. s2 |
+  r4 e f g a |
+  r f g a bes |
+  a g f g a |
+  e c d g f |
+  \time 4/4
+  <f a> r <c e> r |
+  \time 5/4
+  r2 r g'4 |
+  f ees2 d4 ees |
+  fis g a bes a |
+  g f bes a g |
+  f g a r2 |
 
 }
 
 bass = \relative c {
   \common
-  \partial 2.
+
+  \partial 2. g4 \(a bes |
 
   \barNumberCheck #1
-  g4 \(a bes |
   c2 \) bes4\( c d\) |
   f\( g d2 c4\) |
   a\( c d f d\) |
+
+  \barNumberCheck #4
   c\( d2.\) r4 |
   r c\( d ees f\) |
   r d\( ees f g\) |
+
+  \barNumberCheck #7
   f\( e d e f \) |
   a\( g f e d\) |
+
+  \barNumberCheck #9
   \time 4/4
   f r a r |
   \time 5/4
