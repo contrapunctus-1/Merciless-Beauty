@@ -45,7 +45,7 @@ middle = \relative c' {
   <f a> r <c e> r |
   \time 5/4
   r2 r g'4 |
-  f ees2 d4 ees |
+  f e2 d4 ees |
   fis g a bes a |
   g f bes a g |
   f g a r2 |
