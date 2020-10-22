@@ -1,5 +1,7 @@
 \version "2.20.0"
 
+posVIII = \markup \small \bold "VIII"
+
 guitarDynamics = {
 
 }
@@ -7,6 +9,7 @@ guitarDynamics = {
 melody = \relative c' {
   \common
 
+  \voiceOne
   \partial 2. r2. |
 
   \barNumberCheck #1
@@ -19,12 +22,12 @@ melody = \relative c' {
   r2. r2 | r2. r2 | r2. r2 |
   r2. r2 |
 
-
 }
 
 middle = \relative c' {
   \common
 
+  \voiceThree
   \partial 2. r2. |
 
   \barNumberCheck #1
@@ -34,7 +37,7 @@ middle = \relative c' {
 
   \barNumberCheck #4
   s2. s2 |
-  r4 e f g a |
+  r4 e-2 f-2 g-4 a-2 |
   r f g a bes |
   a g f g a |
   e c d g f |
@@ -52,6 +55,7 @@ middle = \relative c' {
 bass = \relative c {
   \common
 
+  \voiceTwo
   \partial 2. g4 \(a bes |
 
   \barNumberCheck #1
@@ -61,8 +65,8 @@ bass = \relative c {
 
   \barNumberCheck #4
   c\( d2.\) r4 |
-  r c\( d ees f\) |
-  r d\( ees f g\) |
+  r c-1\(^\posVIII d-0 ees-3 f-1\) |
+  r d-0\( ees f g-0\) |
 
   \barNumberCheck #7
   f\( e d e f \) |
