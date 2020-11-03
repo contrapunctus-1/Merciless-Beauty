@@ -26,8 +26,8 @@ melody = \relative c' {
   \barNumberCheck #9 % ... woundeth it through ...
   \time 4/4 r1 |
   \time 5/4 r2. r2 |
-  r2 a4 b c |
-  d2 c4 d e |
+  r2 a'4\( b c |
+  d2\) c4 d e |
 
   \barNumberCheck #13 % And but your word ...
   d2. c4 bes |
